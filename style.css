@@ -8,6 +8,18 @@ body {
   padding: 0;
 }
 
+/*  hover style */
+.banar-effect:hover {
+  -ms-transform: rotate(20deg);
+  /*IE9*/
+  transform: rotate(20deg);
+  transition-duration: 0.3s;
+  transition-delay: 0.3s;
+  -webkit-transform: rotate(20deg);
+  -moz-transform: rotate(20deg);
+  -o-transform: rotate(20deg);
+}
+
 /* top bannar section */
 .container {
   width: 90%;
